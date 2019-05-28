@@ -30,9 +30,7 @@
     <div class="page-header-inner">
 
         <div class="brand">
-            <a href="index.html" title="Accueil">
                 <img src="<?php echo bloginfo( 'template_url' ); ?>/images/logo-bowl.svg" alt="Logo" class="logo">
-            </a>
         </div><!-- .brand -->
 
 <!--        <form class="search-form" action="#" method="GET">-->
