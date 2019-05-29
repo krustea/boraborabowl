@@ -20,7 +20,7 @@ wp_footer() ?>
 
         <?php endif; ?>
             </ul>
-        
+
     </div>
 
 
@@ -57,16 +57,13 @@ wp_footer() ?>
             </a>
         </div><!-- .brand -->
 
-        <p class="adresse">30 rue Bowléro <br>
-            35000 Rennes <br>
-            02 99 56 73 45 <br>
-            bowlicious@bowlicious.com <br>
-            SIRET FR 345678920</p>
+        <p class="adresse"><?php the_field('adresse') ?><br>
+            <?php the_field('code_postal_ville') ?><br>
+            <?php the_field('telephone') ?><br>
+            <?php the_field('mail') ?><br>
+            <?php the_field('siret') ?></p>
 
-        <div class="end">
-            <a href="">Mentions légales</a>
-            <a href="">RGPD</a>
-        </div>
+
 
     </div><!-- .page-footer-content -->
 
